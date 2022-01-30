@@ -1,0 +1,7 @@
+---
+
+- hosts: cisco
+  tasks:
+  - name: Test reachability to 10.110.60.30 
+    ios_ping:
+     dest: 10.110.60.30
